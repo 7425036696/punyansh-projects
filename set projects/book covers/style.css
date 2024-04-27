@@ -1,0 +1,43 @@
+@font-face {
+    font-family: tolyer;
+    src: url(TolyerNo4-Medium.ttf);
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+
+.part2 {
+    background-color: red;
+    height: 542px;
+    width: 230px;
+}
+
+.who-am-i {
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+    font-family:tolyer ;
+    /* margin-top: 10px; */
+}
+.line{
+    background-color: white;    
+    width: 100px;
+    margin-left:20px;
+    height: 3px;
+    margin-top: 20px;
+}
+.by{
+    font-size: 25px !important;
+    margin-top: 20px;
+    color: black;
+}
+.am, i{
+    margin-bottom: 35px !important;
+    margin-bottom: -10px;
+}
+.I{
+    margin-top: -50px;
+    margin-bottom: -10px;
+}

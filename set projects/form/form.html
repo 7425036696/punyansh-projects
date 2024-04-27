@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 500px;
+            height: 500px;
+            border: 2px black solid;
+            margin: 0 auto;
+
+        }
+
+        .upper-div {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #53AD8A;
+        }
+
+        .lower-div {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .lower-div form input {
+            margin: 0 1.5%;
+            /* text-align: center; */
+        }
+
+        button {
+            padding: 10px;
+            width: 47%;
+            margin-top: 20px;
+            height: 45px;
+            background-color: #53AD8A;
+            font-size: 24px;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .second-button {
+            background-color: black;
+        }
+    </style>
+    <div class="main">
+        <div class="upper-div">
+            <h1>Sign Up for Free</h1>
+        </div>
+        <div class="lower-div">
+            <form action="php.">
+                <input type="text" placeholder="First Name" style="width: 46%;">
+                <input type="text" placeholder="Last Name" style="width: 45%;"> <br> <br>
+                <input type="email" placeholder="your email address" style="width: 95%;"> <br> <br>
+                <input type="password" placeholder="Password" style="width: 95%;"> <br> <br>
+                <input type="submit" value="Get Started"
+                    style="width: 95%; height:30px; background-color:#53AD8A; font-size: 24px; color: white;">
+            </form>
+            <button class="first-button">Sign Up</button>
+            <button class="second-button">Log In</button>
+          
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>
