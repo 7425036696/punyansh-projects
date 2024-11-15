@@ -19,6 +19,7 @@ span.innerText = 'Too High!'
 else{
 span.innerText = 'Congrats! You win'
 start.removeAttribute('disabled')
+sumbit.setAttribute('disabled', false)
 }
 allg.push(input.value)
 guess.innerText = allg.join(',')
@@ -27,4 +28,7 @@ start.addEventListener('click', () => {
 span.innerText  = ''
 guess.innerText = ''
 input.value = ''
+random = Math.floor(Math.random() * 100) + 1
+sumbit.removeAttribute('disabled')
+start.setAttribute('disabled', false)
 })
